@@ -2,9 +2,9 @@ name: Daily Commit
 
 on:
   schedule:
-    # Du lundi au samedi, 2 commits par jour à des heures fixes (modifiables)
-    - cron: '23 9 * * 1-6'   # Random-like hour (11:23 AM UTC) → 13:23 CET
-    - cron: '47 14 * * 1-6'  # Random-like hour (2:47 PM UTC) → 16:47 CET
+    - cron: '15 10 * * 1-5'     # 10:15 UTC (12:15 CET)
+    - cron: '30 13 * * 1-5'     # 13:30 UTC (15:30 CET)
+    - cron: '55 17 * * 1-5'     # 17:55 UTC (19:55 CET)
   workflow_dispatch:
 
 jobs:
